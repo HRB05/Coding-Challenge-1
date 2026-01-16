@@ -19,6 +19,7 @@ def ScoreCalc():
 score = ScoreCalc()
 
 def get_grade(score):
+    # Score is passed through as a parameter
     if score < 40:
         classification = "Fail"
     elif score < 50:
